@@ -39,6 +39,7 @@ GO
 
 msdb
 Db für den Agent (Jobs, Verlauf, Emailsystem...)
+SSIS Pakete (Wartungsplan)
 
 
 
