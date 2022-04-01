@@ -50,8 +50,8 @@
           <FullPath>01_Virtualisierung.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Installation.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_Installation.sql</FullPath>
         </FileNode>
@@ -103,11 +103,29 @@
           <AssociatedConnUserName />
           <FullPath>10_DB_Objekte.sql</FullPath>
         </FileNode>
+        <FileNode Name="100_ DB mit geringer Seitendichte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>100_ DB mit geringer Seitendichte.sql</FullPath>
+        </FileNode>
         <FileNode Name="11_DB_Datei Architektur.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_DB_Datei Architektur.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Backup_Restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_Backup_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Snapshot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_Snapshot.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

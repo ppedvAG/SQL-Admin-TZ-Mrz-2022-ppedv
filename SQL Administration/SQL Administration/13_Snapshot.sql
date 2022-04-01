@@ -77,3 +77,7 @@ select * from sysprocesses where spid > 50 --alle Prozesse der User
 kill 97
 
 restore database northwind from database_snapshot = 'SN_Nwind_1200'
+
+
+
+-----Sicherungsplan

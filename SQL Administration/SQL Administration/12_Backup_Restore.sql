@@ -206,3 +206,18 @@ GO
 
 --Was wäre wenn : mdf defekt oder weg?
 --Kacke! Backup!!
+
+
+--Fall: Was wäre , wenn ich wüsste, dass gleich was passiert?
+--Update einspielen... " Sicherung vorher ratsam..."
+
+
+
+
+
+
+
+
+
+
+

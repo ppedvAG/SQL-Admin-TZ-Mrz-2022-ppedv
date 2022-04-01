@@ -24,3 +24,10 @@
  ### Dateigruppen
  ### Wachstumsraten Initialgrößen 
 
+
+ ## Mod 5 Backup Restore
+ ### RecoveryModel
+ ### Voll- Diff- Tlog- Sicherung
+ ### Snapshot
+ ### Restorefälle
+
