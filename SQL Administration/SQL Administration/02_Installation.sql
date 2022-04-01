@@ -33,6 +33,12 @@ SQL Browser = Client-> benannte Instanz      Port 1434 UDP
    --lokale Konten.. im Netzwerk mit Computerkonto arbeiten
 
 
+   --Nicht der User, der einen TSQL Code ausführt , ist derjenige der auf externe Ressourcen zugreift
+   --ist es ein Zeitplan?... dann SQL Agent..Ausnahem : Proxy Konten
+   --ist es kein Zeitplan? .. dann SQL Server 
+
+   ---der lokale!!! Zugriff wird in der Regel immer mit dem NT Service Konto geregelt..auch wenn man für die Dienste ein Dom User zur Verfügung stellt
+
 
 Instanz-Features
 Mehrfach installierbar
