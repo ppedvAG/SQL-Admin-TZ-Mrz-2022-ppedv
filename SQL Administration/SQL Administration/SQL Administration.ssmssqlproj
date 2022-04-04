@@ -127,6 +127,24 @@
           <AssociatedConnUserName />
           <FullPath>13_Snapshot.sql</FullPath>
         </FileNode>
+        <FileNode Name="14_Contained DAtabase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Contained DAtabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaintenanceSolution (8).sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>MaintenanceSolution (8).sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

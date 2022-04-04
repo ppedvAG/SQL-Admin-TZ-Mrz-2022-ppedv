@@ -166,6 +166,62 @@ GO
 
 
 
+
+--PLAN FÜR SICHERUNG
+
+
+-- wie groß ist die DB :														0,5  50   100   400
+--Wie ist die Arbeitszeit:													5*24  / 7*24    Mo bis Fr 5:00 - 20:00
+--Wie lange darf die DB bzw Server ausfallen?				1 Tag bis 1h
+--Wie groß darf der Datenverlust in Zeit sein?				0 bis .. puuhhhh
+
+
+
+/*
+
+400GB 
+
+Mo bis Fr  4:45 bis 20:00
+
+Ausfallzeit 30min
+Datenverlust: 0 ------> Hochverfügbarkeit (Spiegelung Hochverfügbarkeitsgruppen)
+
+Datenverlust: 15min
+
+
+---Der Datenverlust regelt die T Sicherung: 15 min   von 5:00  bis 20:15  Mo bs Fr
+
+-- Die V Sicherung: so oft wie möglich:  1mal pro Tag : Dauer evtl: 10min--> 21 Uhr   Mo bis Fr
+
+
+--Die D Sicherung: alle x Ts.. kaum mehr als 3 oder 4   alle 1 h Mo bis  6:05 | 5.55
+-- D Sicherung verkürzt den Restore ungemein , sondern auch sichern, falls ein T defekt
+--RecoveryModel : Full .. dann wäre auf Sekunde restore möglich
+
+--keine Sicherung in eine BAK Datei (Container)
+
+--> 
+
+
+
+
+-- V TTTXTTTTTTTTTTTTTTTTTTTTTTTTD TTTT
+
+
+
+
+--TIPP: SQL Express   Ola Hallengren
+
+
+
+
+
+
+*/
+
+
+
+
 --Server tot.. HDD / Dateien leben
 
 --Dateien lassen sich nicht kopieren , wenn sie im Betrieb sind....
