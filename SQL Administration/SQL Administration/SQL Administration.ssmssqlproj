@@ -109,6 +109,18 @@
           <AssociatedConnUserName />
           <FullPath>100_ DB mit geringer Seitendichte.sql</FullPath>
         </FileNode>
+        <FileNode Name="100_sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>100_sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="101_sp_Help_revlogin anwenden.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>101_sp_Help_revlogin anwenden.sql</FullPath>
+        </FileNode>
         <FileNode Name="11_DB_Datei Architektur.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
@@ -138,6 +150,18 @@
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>15_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_sp_ChangeUserslogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_sp_ChangeUserslogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_Richtlinien.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_Richtlinien.sql</FullPath>
         </FileNode>
         <FileNode Name="MaintenanceSolution (8).sql">
           <AssociatedConnectionMoniker />
