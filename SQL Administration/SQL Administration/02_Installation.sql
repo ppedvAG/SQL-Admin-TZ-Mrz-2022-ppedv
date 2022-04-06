@@ -102,12 +102,6 @@ Zb Startarameter in SQL Konfig Manager bei den SQL Diensten
 
 
 
-
-
-
-
-
-
 MAXDOP
 max Anzahl an Prozessoren für eine Abfrage: max 8 , sonst Anzahl der Prozessoren
 Kostenschwellwert korrigeren (default 5)
