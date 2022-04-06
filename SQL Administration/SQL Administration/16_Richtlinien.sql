@@ -23,6 +23,17 @@ Facets: Eigenschaften (prüfbar)
 
 Bedingungen ......an Eigenschaften
 
+
+
+ Eine Reihe von Policies gibts von Microsoft
+ ..allerdings nicht mehr auf DVD
+
+ allerdings auf Github
+
+ https://github.com/MicrosoftDocs/sql-docs/blob/live/docs/relational-databases/policy-based-management/monitor-and-enforce-best-practices-by-using-policy-based-management.md
+
+
+*/
 Declare @condition_id int
 EXEC msdb.dbo.sp_syspolicy_add_condition @name=N'DB_mustHave', @description=N'', @facet=N'Database', @expression=N'<Operator>
   <TypeClass>Bool</TypeClass>

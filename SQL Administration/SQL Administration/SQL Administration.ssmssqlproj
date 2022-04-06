@@ -163,6 +163,18 @@
           <AssociatedConnUserName />
           <FullPath>16_Richtlinien.sql</FullPath>
         </FileNode>
+        <FileNode Name="17_Audit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="200_Hochverfügbarkeit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>200_Hochverfügbarkeit.sql</FullPath>
+        </FileNode>
         <FileNode Name="MaintenanceSolution (8).sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
