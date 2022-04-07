@@ -43,6 +43,12 @@
           <AssociatedConnUserName />
           <FullPath>_Tag2_Wiederhoung.sql</FullPath>
         </FileNode>
+        <FileNode Name="_Tag4_Wiederholung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Tag4_Wiederholung.sql</FullPath>
+        </FileNode>
         <FileNode Name="01_Virtualisierung.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -169,11 +175,35 @@
           <AssociatedConnUserName />
           <FullPath>17_Audit.sql</FullPath>
         </FileNode>
+        <FileNode Name="20_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_MAXDOP.sql</FullPath>
+        </FileNode>
         <FileNode Name="200_Hochverfügbarkeit.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>200_Hochverfügbarkeit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="201_DBSettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>201_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="202_Salamaitaktik.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>202_Salamaitaktik.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fix_VLF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fix_VLF.sql</FullPath>
         </FileNode>
         <FileNode Name="MaintenanceSolution (8).sql">
           <AssociatedConnectionMoniker />

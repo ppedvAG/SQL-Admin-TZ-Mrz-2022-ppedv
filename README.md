@@ -30,4 +30,14 @@
  ### Voll- Diff- Tlog- Sicherung
  ### Snapshot
  ### Restorefälle
+ 
+ ## Mod 6 Security
+ ### Rollen User Login
 
+ ## Mod 7 Hochverfügbarkeit
+ ### Entscheidungsmatrix
+ ### Logshipping, SQL Cluster, Spiegelung, AVGs
+
+ ### Mod 8 Advanced DB Design und Setup
+ ## MAXDOP
+ ## Salamitaktik (Partitionierung)
