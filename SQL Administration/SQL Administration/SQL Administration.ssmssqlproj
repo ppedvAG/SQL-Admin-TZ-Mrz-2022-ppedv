@@ -103,6 +103,12 @@
           <AssociatedConnUserName />
           <FullPath>09_Database.sql</FullPath>
         </FileNode>
+        <FileNode Name="09_IX_Wartung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_IX_Wartung.sql</FullPath>
+        </FileNode>
         <FileNode Name="10_DB_Objekte.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
@@ -199,17 +205,59 @@
           <AssociatedConnUserName />
           <FullPath>202_Salamaitaktik.sql</FullPath>
         </FileNode>
+        <FileNode Name="205_Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>205_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="300_Problem einer Tabelle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>300_Problem einer Tabelle.sql</FullPath>
+        </FileNode>
         <FileNode Name="Fix_VLF.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Fix_VLF.sql</FullPath>
         </FileNode>
-        <FileNode Name="MaintenanceSolution (8).sql">
+        <FileNode Name="X_Fehlende Indizes.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>MaintenanceSolution (8).sql</FullPath>
+          <FullPath>X_Fehlende Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Glenn Berry DMVs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Glenn Berry DMVs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="x_QueryStrore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>x_QueryStrore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Überflüssige Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

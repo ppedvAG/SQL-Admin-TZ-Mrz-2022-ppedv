@@ -4,7 +4,6 @@
 
 --Systemsichten
 -- select * from sys.dm_db_index_physical_Stats verknüpft mikt sys.indexes
-sp_blitzIndex  --Brent Ozar
 
 
 select object_name(i.object_id) as TableName
@@ -26,4 +25,4 @@ go
 
 -- Brent Ozar SP_blitzIndex-- First Responder Kit 0 Euro
 
-sp_blitzIndex
+sp_blitz

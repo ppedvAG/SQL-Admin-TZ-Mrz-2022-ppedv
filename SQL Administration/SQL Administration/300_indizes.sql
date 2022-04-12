@@ -150,6 +150,55 @@ order by Umsatz desc
 
 select * into ku2 from ku1
 
+
+--NIX_SC_PID_i_CYCIUPQU
+select country, city, sum(unitprice*quantity) from ku1
+where shipcountry ='UK' AND ProductId < 3
+group by country, city
+
+
+--NIX_SC_PID_i_CYCIUPQU
+--kein IX Vorschlag mehr seitens Plan
+--2 IX : fall1 für SC und Fall2 für PID
+select country, city, sum(unitprice*quantity) from ku1
+where shipcountry ='UK' OR ProductId < 3
+group by country, city
+
+--Abdeckender IX.. der iddeale IX reiner SEEK ohne LOOKUP
+
+
+---Part IX und gefilterter IX (nicht alle DS im IX)
+--gefiltert macht nur Sinn wenn weniger Ebenen!!
+select freight from ku1 where city = 'Redmond' and Country = 'USA'
+select freight from ku1 where city = 'London' and Country = 'UK'
+
+
+--Part IX--rein phyisklaische Lösung für viele gefilterte IX.. voll abdeckend
+
+-----ALBANIEN---ARGENTINIEN---BRASILIEN----CHILE---
+
+
+
+
+--ind Sicht..aber geht nur mit schemabinding, count_big, eindeutig 
+
+select country , count(*) from ku1
+group by country
+
+create or alter view v1 with schemabinding
+as
+select country , count_big(*) as Anz from dbo.ku1
+group by country
+
+select * from v1
+
+
+
+select top 3 * from ku1
+
+
+
+
 --Columnstore IX 
 select top 1 Lastname, sum(unitprice*quantity) as Umsatz from ku2
 where country = 'UK'
@@ -178,6 +227,13 @@ select * from sys.dm_db_column_store_row_group_physical_stats
 
 
 --Wartungsplan  IX Rebuild Reorg 
+
+
+--Fragmentierung
+--unter 10 % nix
+--über 30% Rebuild
+--10 bis 30 % Reorg
+
 
 -Fehlende Indizes und überflüssige
 0 = HEAP
